@@ -17,7 +17,7 @@ header{
     align-items: center;
 }
 section{
-    padding: 100px 0; 
+    padding: 100px 0 50px 0; 
 }
 .header-container{
     padding-right: 150px;
@@ -48,7 +48,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 50%;
     color: #151414;
 }
 .failure-title{
@@ -72,3 +71,49 @@ section{
     color: #16D887;
 }
 /* cause of failure end */
+/* My Plans section style start */
+#my-plans{
+    text-align: center;
+}
+.my-plan-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.card h4{
+    font-size: 27px;
+    margin: 10px 0;
+    color: #151414;
+    font-weight: 600;
+}
+.card p{
+    font-size: 22px;
+    color: #737272;
+}
+.my-plan-bottom-image{
+    text-align: left;
+}
+.image-gradient{
+    background-image: linear-gradient(to right,#005FAC,#005FAC00),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 100%;
+    max-width: 800px;
+    height: 200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.image-gradient h2{
+    color: #ffffff;
+    font-size: 35px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+/* My Plans section style end */
