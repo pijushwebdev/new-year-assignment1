@@ -137,6 +137,43 @@ section{
     margin-bottom: 10px;
 }
 /* My Plans section style end */
+
+/* Routine section style start */
+#my-section{
+    background-image: linear-gradient(to right,#2193b044,#0162782a);
+}
+.routine{
+    margin: 0 auto;
+    text-align: center;
+}
+.routine h2{
+    margin-bottom: 40px;
+    background-image: linear-gradient(#5433FF,#20BDFF,#fea5a5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+th,td,table{
+    border: 2px solid rgba(143, 13, 13, 0.823);
+    border-collapse: collapse;
+}
+th,td{
+    width: 300px;
+    height: 80px;
+    background-image: linear-gradient(to right, #7300ac,#d86016);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+}
+tr:first-child th{
+    font-size: 30px;
+}
+tr:first-child{
+    background-color: #0033663a;
+}
+/* Routine section style end */
 /* footer style start */
 #footer{
     background-color: #151414;
