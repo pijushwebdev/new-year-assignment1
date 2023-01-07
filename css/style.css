@@ -11,7 +11,7 @@
 header{
     background-image: url(../images/banner/banner3.png);
     height: 100vh;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-end;
