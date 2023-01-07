@@ -43,7 +43,19 @@ section{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    border: 1px solid;
     border-color: transparent;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    cursor: pointer;
+}
+.primary-btn:hover{
+    color: #ffffff;
+    background-color: #005FAC;
+    border: 1px solid #ffffff;
 }
 .secondary-btn{
     padding: 15px 20px;
@@ -57,6 +69,16 @@ section{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-color: transparent;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    cursor: pointer;
+}
+.secondary-btn:hover{
+    color: #005FAC;
+    background-color: #ffffff;
 }
 /* header end */
 /* cause of failure start */
@@ -214,6 +236,14 @@ tr:first-child{
     -o-border-radius: 50%;
     text-align: center;
     line-height: 40px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.footer-content a:hover{
+    background-color: #006AFF;
 }
 .subscribe input{
     padding: 15px;

@@ -7,3 +7,9 @@
 .fa-twitter{
     color: #1DA1F2;
 }
+.footer-content a:hover i{
+    color: #ffffff;
+}
+.footer-content a:nth-child(2):hover{
+    background-color: #FF0000;
+}
